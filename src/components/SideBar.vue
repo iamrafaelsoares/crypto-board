@@ -1,5 +1,11 @@
 <template>
-  <v-navigation-drawer v-model="drawer" permanent color="#F4F5F9" app>
+  <v-navigation-drawer
+    v-model="drawer"
+    permanent
+    color="#F4F5F9"
+    app
+    v-if="$vuetify.breakpoint.lgAndUp"
+  >
     <v-list-item class="px-2 py-5">
       <v-list-item-title class="text-capitalize" align="center">
         <v-icon x-large>fab fa-bitcoin</v-icon> Coinbets
