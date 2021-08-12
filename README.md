@@ -1,4 +1,6 @@
-# cryptotransaction
+# crypto-board
+
+![ss1](screenshots/ss1.png)
 
 ## Project setup
 ```
